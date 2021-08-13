@@ -33,7 +33,7 @@ jobs:
         uses: Borales/actions-yarn@v2.1.0
         
       - name: Project build
-        run: yarn build
+        run: npm run build
         
       - name: Installing Surge
         run: npm i -g surge
